@@ -1,0 +1,35 @@
+{
+  "name": "fireamtcontroller",
+  "version": "1.0.1",
+  "description": "Remote Controller For Intel Active Management Technology",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js",
+    "test": "--test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lieyan666/FireAMTController.git"
+  },
+  "keywords": [
+    "intel",
+    "amt"
+  ],
+  "author": "lieyan",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/lieyan666/FireAMTController/issues"
+  },
+  "homepage": "https://github.com/lieyan666/FireAMTController#readme",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2",
+    "fs": "^0.0.1-security",
+    "md5": "^2.3.0",
+    "meshcentral": "^1.1.38",
+    "meshcommander": "^0.9.5-a"
+  }
+}
